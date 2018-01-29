@@ -1,5 +1,5 @@
 {
-  "name": "react-router",
+  "name": "@KentoMoriwaki/react-router3",
   "version": "3.2.0",
   "description": "A complete routing library for React",
   "files": [
@@ -12,9 +12,9 @@
   "main": "lib/index",
   "module": "es/index",
   "jsnext:main": "es/index",
-  "repository": "ReactTraining/react-router",
-  "homepage": "https://github.com/ReactTraining/react-router#readme",
-  "bugs": "https://github.com/ReactTraining/react-router/issues",
+  "repository": "KentoMoriwaki/react-router",
+  "homepage": "https://github.com/KentoMoriwaki/react-router#readme",
+  "bugs": "https://github.com/KentoMoriwaki/react-router/issues",
   "scripts": {
     "build": "npm run build-cjs && npm run build-es",
     "build-cjs": "rimraf lib && cross-env BABEL_ENV=cjs babel ./modules -d lib --ignore __tests__",
